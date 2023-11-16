@@ -1,6 +1,6 @@
 import './card.css'
 
-export function Card({ data, setSGame, vipAccess=false }) {
+export function Card({ data, setSGame, vipAccess=false, checkout }) {
 
 
 
@@ -27,7 +27,7 @@ export function Card({ data, setSGame, vipAccess=false }) {
                 setSGame(data);
             }
             else {
-                window.open("https://checkout.perfectpay.com.br/pay/PPU38CNC4TL", "_blank")
+                window.open(checkout, "_blank")
             }
         }
         else {

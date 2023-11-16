@@ -52,7 +52,7 @@ export function Home({ data, selectedGame, setSGame, vipAccess = false, setVipAc
               })
               .map((current, index) =>
                 <SwiperSlide key={index}>
-                  <Card data={current} setSGame={setSGame} vipAccess={vipAccess} />
+                  <Card data={current} setSGame={setSGame} vipAccess={vipAccess} checkout={checkout}/>
                 </SwiperSlide>
               )
             }
