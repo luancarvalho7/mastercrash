@@ -14,9 +14,9 @@ export function Bonus({ inicio, home }) {
             <div className="imgheaderBlock"></div>
 
             <div className="bonusContent borderSpacing">
-                <img src={"https://i.postimg.cc/3RW6RXxX/bullsbet.webp"} className="bonusHouse"></img>
+                <img src={"https://postimg.cc/ZCnb59BC"} className="bonusHouse"></img>
                 <div className="bh-txt">
-                    <h3 className='housetitle txt-gradient'>BullsBet</h3>
+                    <h3 className='housetitle txt-gradient'>RealsBet</h3>
                     <h2>Única plataforma onde os
                         analistas trabalham e o BUG Funciona!</h2>
                 </div>
@@ -42,7 +42,7 @@ export function Bonus({ inicio, home }) {
                         dentro do nosso sistema.</p>
                 </div>
             </div>
-            <iframe src={"https://go.aff.bullsbetaffiliate.com/50v6gzg5"} id='bonusiFrame' className={iFrameOn ? "" : "if-disabled"}></iframe>
+            <iframe src={"https://afiliado.realsbet.com/visit/?bta=49878&brand=realsbet"} id='bonusiFrame' className={iFrameOn ? "" : "if-disabled"}></iframe>
 
         </section >
     )
