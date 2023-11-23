@@ -1,8 +1,15 @@
 #home {
-
   margin-bottom: 120px;
 }
-
+.gs-heading{
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.gs-Header{
+  width: 250px;
+}
 #mainHeading {
   margin-top: 1.25rem;
   text-align: center;

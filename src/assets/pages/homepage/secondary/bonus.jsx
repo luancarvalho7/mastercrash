@@ -14,7 +14,7 @@ export function Bonus({ inicio, home }) {
             <div className="imgheaderBlock"></div>
 
             <div className="bonusContent borderSpacing">
-                <img src={"https://postimg.cc/ZCnb59BC"} className="bonusHouse"></img>
+                <img src={"https://i.postimg.cc/sD9vK739/realsbet.webp"} className="bonusHouse"></img>
                 <div className="bh-txt">
                     <h3 className='housetitle txt-gradient'>RealsBet</h3>
                     <h2>Única plataforma onde os

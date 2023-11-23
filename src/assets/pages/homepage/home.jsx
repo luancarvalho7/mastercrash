@@ -33,9 +33,9 @@ export function Home({ data, selectedGame, setSGame, vipAccess = false, setVipAc
   const GameSection = ({ title, gameType, data, setSGame, sort }) => {
     return (
       <div className="showCards">
-        <h1 className="sc-title borderSpacing">
-          {title}
-        </h1>
+        <div className="gs-heading">
+          <img src={title == "Crash" ? "https://i.postimg.cc/hPG8P264/casino-crash.png" : (title == "Casino" ? "https://i.postimg.cc/gkBVwvbV/casino-head.png": "https://i.postimg.cc/Wz5MwZFP/slots-head.png")} className='gs-Header' />
+        </div>
         <div className="sc-view">
           <Swiper slidesPerView={'auto'} centeredSlides={false} spaceBetween={0} className="gameSwiper">
             {data
@@ -52,7 +52,7 @@ export function Home({ data, selectedGame, setSGame, vipAccess = false, setVipAc
               })
               .map((current, index) =>
                 <SwiperSlide key={index}>
-                  <Card data={current} setSGame={setSGame} vipAccess={vipAccess} checkout={checkout}/>
+                  <Card data={current} setSGame={setSGame} vipAccess={vipAccess} checkout={checkout} />
                 </SwiperSlide>
               )
             }
@@ -139,7 +139,7 @@ export function Home({ data, selectedGame, setSGame, vipAccess = false, setVipAc
 
   return (
     <section id="home">
-      <BannerSection checkout={checkout} communityLink={communityLink}/>
+      <BannerSection checkout={checkout} communityLink={communityLink} />
       <div>
         <h1 id="mainHeading" className='borderSpacing'>
           Com qual jogo você <br />
