@@ -20,7 +20,7 @@ export function Lives() {
                     </h2>
                     <h3>  Venha fazer parte da alcatéia, lucrar junto com os leões e concorrer a <strong className='h3W'>PIX TODAS AS SEMANAS</strong> em live. </h3>
                 </div>
-                <button className='bg-gradient bullsCta' onClick={() => window.open("https://www.instagram.com/vinicim_bf/", "_blank")} >ENTRAR</button>
+                <button className='bg-gradient bullsCta' onClick={() => window.open("https://t.me/MasterCashAnalises", "_blank")} >ENTRAR</button>
             </div>
         </section>
     )

@@ -20,7 +20,7 @@
     ],
     "extrapages": {
         "bonus": true,
-        "lives": false,
+        "lives": true,
         "tutorial": false
     }
 }

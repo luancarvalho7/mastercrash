@@ -26,7 +26,7 @@ export function BannerSection({checkout, communityLink}) {
                 modules={[Autoplay]}
                 className="bannerSwiper"
             >
-                <SwiperSlide><img src="https://i.postimg.cc/7YczPwSX/2k.webp" alt="" onClick={() => { }} /></SwiperSlide>
+                <SwiperSlide><img src="https://i.postimg.cc/85kTWfhG/2k.webp" alt="" onClick={() => { }} /></SwiperSlide>
                 <SwiperSlide><img src="https://i.postimg.cc/4dm3v0X5/demo-ban02.png" alt="" style={{ cursor: "pointer" }}
                     onClick={() => { window.open(communityLink) }} /></SwiperSlide>
                 <SwiperSlide><img src="https://i.postimg.cc/zGggV6jN/vip.webp" alt="" style={{ cursor: "pointer" }}
